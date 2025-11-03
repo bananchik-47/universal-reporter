@@ -1,0 +1,2 @@
+reporter.py:10:5: F841 local variable 'data' is assigned to but never used
+main.py:3:1: E302 expected 2 blank lines, found 1

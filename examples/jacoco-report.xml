@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report name="Example Project">
+  <package name="com.example">
+    <class name="Main" sourcefilename="Main.java">
+      <method name="main" desc="()V" line="10">
+        <counter type="INSTRUCTION" missed="3" covered="7"/>
+        <counter type="LINE" missed="1" covered="4"/>
+      </method>
+    </class>
+  </package>
+  <counter type="INSTRUCTION" missed="10" covered="90"/>
+  <counter type="LINE" missed="2" covered="48"/>
+</report>

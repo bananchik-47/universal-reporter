@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OWASPZAPReport version="2.12.0">
+  <site name="example.com" host="example.com" port="80" ssl="false">
+    <alerts>
+      <alertitem>
+        <pluginid>10010</pluginid>
+        <alert>Cross Site Scripting</alert>
+        <riskcode>3</riskcode>
+        <riskdesc>High (3)</riskdesc>
+        <desc>Reflected XSS vulnerability found.</desc>
+        <uri>http://example.com/search?q=test</uri>
+      </alertitem>
+      <alertitem>
+        <pluginid>10020</pluginid>
+        <alert>SQL Injection</alert>
+        <riskcode>4</riskcode>
+        <riskdesc>Critical (4)</riskdesc>
+        <desc>SQL Injection vulnerability found.</desc>
+        <uri>http://example.com/login</uri>
+      </alertitem>
+    </alerts>
+  </site>
+</OWASPZAPReport>

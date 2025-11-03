@@ -1,0 +1,9 @@
+{
+  "project": "Example Project",
+  "metrics": [
+    {"metric": "bugs", "value": 2},
+    {"metric": "vulnerabilities", "value": 1},
+    {"metric": "code_smells", "value": 5},
+    {"metric": "coverage", "value": 87.5}
+  ]
+}

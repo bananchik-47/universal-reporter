@@ -1,8 +1,12 @@
-{
-  "tool": "sonarqube",
-  "summary": {"issues": 12, "high": 3, "medium": 5, "low": 4},
-  "items": [
-    {"title":"SQLInjection", "severity":"HIGH", "file":"src/a.java", "line":23, "desc":"...","link":"..."},
-    ...
-  ]
-}
+import os
+
+class BaseParser:
+    def __init__(self, file_path):
+        self.file_path = file_path
+
+    def exists(self):
+        return os.path.exists(self.file_path)
+
+    def parse(self):
+        """Переопределяется в наследниках"""
+        raise NotImplementedError("Метод parse() нужно реализовать в дочернем классе.")

@@ -5,25 +5,19 @@
 Если у тебя есть Git:
 
 ```bash
-git clone https://github.com/твоя-ссылка-на-репозиторий.git
+https://github.com/bananchik-47/universal-reporter.git
 cd universal-reporter
 ```
 
 Если нет — просто скачай ZIP-архив проекта, распакуй и открой папку universal-reporter в терминале.
 
- 2. Создай и активируй виртуальное окружение
+ 2. Активируй виртуальное окружение
 
 Windows (cmd или PowerShell):
 ```bash
-python -m venv .venv
 .venv\Scripts\activate
 ```
 
-Linux / macOS:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
  3. Установи зависимости
 ```bash
 pip install -r requirements.txt
